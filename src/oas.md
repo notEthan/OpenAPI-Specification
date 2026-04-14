@@ -2955,16 +2955,16 @@ Note that this restriction on additional properties is a difference between Refe
 #### Reference Object Example
 
 ```yaml
-$ref: '#/components/schemas/Pet'
+$ref: '#/components/responses/Pet'
 ```
 
-#### Relative Schema Document Example
+#### Relative Document Example
 
 ```yaml
 $ref: Pet.yaml
 ```
 
-#### Relative Documents with Embedded Schema Example
+#### Relative Documents with Embedded Example
 
 ```yaml
 $ref: definitions.yaml#/Pet
